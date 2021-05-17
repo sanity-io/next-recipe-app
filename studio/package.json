@@ -1,0 +1,29 @@
+{
+  "name": "studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Kapehe <sarahkapehe@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.10.2",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.10.2",
+    "@sanity/default-layout": "^2.10.2",
+    "@sanity/default-login": "^2.8.0",
+    "@sanity/desk-tool": "^2.10.2",
+    "@sanity/vision": "^2.10.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0"
+  },
+  "devDependencies": {}
+}
