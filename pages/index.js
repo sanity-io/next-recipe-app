@@ -18,7 +18,7 @@ export default function Home({ recipes }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Welcome to Kap's Kitchen 🍍</h1>
+      <h1>Next.js Recipe App 🍍</h1>
 
       <ul className="recipes-list">
         {recipes?.length > 0 &&
